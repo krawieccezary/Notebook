@@ -1,0 +1,56 @@
+body {
+ background: url('../images/notebook.jpg') no-repeat center center;
+ background-size: cover;
+ z-index: 10;
+}
+
+body,html {
+ height: 100%;
+ min-height: 100%;
+}
+
+#textarea {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   width: 50%;
+ min-height: 100px;
+ margin: 0 auto;
+ padding: 5px;
+ display: block;
+ position: absolute;
+ top: -200%;
+}
+
+#div_output {
+ margin: 20px auto;
+ max-width: 70%;
+ width: 70%;
+ min-height: 70%;
+ text-align: justify;
+ padding: 5px;
+ color: #000000;
+ font-family: 'Gochi Hand';
+ word-wrap:break-word;
+ text-overflow: clip;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+#site_1, #site_2 {
+ width: 40%;
+ display: inline-block;
+}
+
+#site_1 {
+ margin-right: 5%;
+}
+#site_2 {
+ margin-left: 5%;
+}
+
+#site_1 span {
+   color: gray;
+}
